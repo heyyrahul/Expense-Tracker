@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Rahul",
+      "email": "r@gmail.com",
+      "password": "111"
+    },
+    {
+      "id": 2,
+      "fullName": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password456"
+    },
+    {
+      "id": 3,
+      "fullName": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "password789"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "Income",
+      "category": "Salary",
+      "amount": 50000,
+      "date": "2024-04-20"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "Expense",
+      "category": "Food & Drinks",
+      "amount": 1500,
+      "date": "2024-04-21"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "type": "Income",
+      "category": "Gifts",
+      "amount": 2000,
+      "date": "2024-04-20"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "Expense",
+      "category": "Shopping",
+      "amount": 3000,
+      "date": "2024-04-22"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "type": "Income",
+      "category": "Refunds",
+      "amount": 1000,
+      "date": "2024-04-19"
+    }
+  ]
+}
